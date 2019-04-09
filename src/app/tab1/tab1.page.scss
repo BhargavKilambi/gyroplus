@@ -2,3 +2,43 @@
   max-height: 35vh;
   overflow: hidden;
 }
+*{
+  color:white;
+  background:#221e38;
+}
+
+ion-card{
+  box-shadow: 0px 0px 0px 0px;
+  -webkit-box-shadow:0px 0px 0px 0px;
+}
+
+.b1{
+  color:white;
+  background:transparent;
+  border-radius:50%;
+  border:1px solid #97afff;
+  width:8rem;
+  height:8rem;
+  font-size:1.3rem;
+  font-family:'Joe';
+}
+
+.b1:focus{
+  outline:0px solid transparent;
+}
+.b2:focus{
+  outline:0px solid transparent;
+}
+
+.b2{
+  color:#f85865;
+  background:transparent;
+  border-radius:50%;
+  border:1px solid #f85865;
+  width:8rem;
+  height:8rem;
+  font-size:1.3rem;
+  font-family:'Joe';
+}
+
+

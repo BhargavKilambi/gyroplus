@@ -1,1 +1,24 @@
-
+ion-tabs{
+    background:#221e38;
+    color:white;
+}
+ion-tab-bar{
+    font-family: Montserrat;
+    height:6rem;
+    color:white;
+    background: #272341;
+    ion-tab-button{
+    color:white;
+    background: #272341;  
+    }
+}
+.tab-selected{
+    color: #97afff !important;
+    ion-icon{
+        transition-duration: 500ms;
+        font-size:2.3rem;
+        transform: rotate3d(0, 0, 1, 360deg);
+        animation: 1s 0.2s ease fadeOutAndSpin;
+        animation-fill-mode: forwards;
+    }
+  }

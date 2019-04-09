@@ -1,5 +1,7 @@
 {
   "name": "gyroplus",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -9,3 +9,17 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+
+@font-face {
+    font-family: 'Arimo';
+    src: url('../src/assets/fonts/Arimo.woff2');//path to your font file
+  }
+  @font-face {
+    font-family: 'Joe';
+    src: url('../src/assets/fonts/j2.woff2');//path to your font file
+  }
+  
+  * {
+    font-family: 'Joe';
+  }
+  
